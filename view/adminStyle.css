@@ -1,0 +1,58 @@
+
+			.body{
+				position: fixed; 
+				overflow-y: scroll;
+				width: 100%;
+				top: -20px;
+				left: -20px;
+				right: -40px;
+				bottom: -40px;
+				width: auto;
+				height: auto;
+				background-image: url("Background.jpg");
+				background-size: cover;
+			}
+				
+			.adminOptions div{
+				float: top;
+				color: #fff;
+				font-size: 30px;
+				font-weight: 200;
+			}	
+			.adminOptions{
+				position: absolute;
+				top: calc(32% - 170px);
+				left: calc(31%);
+				height: 400px;
+				width: 350px;
+				padding-top: 50px;
+				padding-bottom: 100px;
+				padding-left: 80px;
+				padding-right: 70px;
+				border: 2px solid white;
+			}
+			.adminOptions input[type=button]{
+				width: 300px;
+				height: 48px;
+				background:transparent;
+				border: 2px solid #fff;
+				cursor: pointer;
+				border-radius: 2px;
+				color: #fffafa;
+				font-size: 15px;
+				font-weight: 400;
+				padding: 4px;
+				margin-top: 20px;
+			}
+		
+			
+			.adminOptions input[type=button]:hover{
+				opacity: 0.8;
+			}
+			.adminOptions input[type=button]:active{
+				opacity: 0.6;
+			}
+			.adminOptions input[type=button]:focus{
+				outline: none;
+			}
+				

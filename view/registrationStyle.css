@@ -1,0 +1,100 @@
+.body{
+    position: fixed; 
+    overflow-y: scroll;
+    width: 100%;
+	top: -20px;
+	left: -20px;
+	right: -40px;
+	bottom: -40px;
+	width: auto;
+	height: auto;
+	background-image: url("Background.jpg");
+	background-size: cover;
+}
+
+.registration div{
+	float: top;
+	color: #fff;
+	font-size: 40px;
+	font-weight: 200;
+}
+
+.registration{
+	position: absolute;
+	top: calc(10%);
+	left: calc(29.5%);
+	height: 400px;
+	width: 300px;
+	padding-top: 40px;
+	padding-left:100px;
+	padding-right:100px;
+	padding-bottom:120px;
+    border: 2px solid white;
+	
+}
+
+.registration input[type=text]{
+	width: 300px;
+	height: 30px;
+	background: transparent;
+	border: 1px solid rgba(255,255,255,0.6);
+	border-radius: 2px;
+	color: #fff;
+	font-size: 16px;
+	font-weight: 400;
+	padding: 4px;
+	margin-top:15px;
+}
+
+.registration input[type=password]{
+	width: 300px;
+	height: 30px;
+	background: transparent;
+	border: 1px solid rgba(255,255,255,0.6);
+	border-radius: 2px;
+	color: #fff;
+	font-family: 'Exo', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	padding: 4px;
+	margin-top: 15px;
+}
+
+.registration input[type=button]{
+	width: 120px;
+	height: 38px;
+	background: #e0ffff;
+	border: 2px solid #fff;
+	cursor: pointer;
+	border-radius: 2px;
+	color: #212121;
+	font-family: 'Exo', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	padding: 6px;
+	margin-top: 20px;
+}
+.registration input[name=back]{
+	width: 120px;
+	height: 38px;
+	background: #e0ffff;
+	border: 2px solid #fff;
+	cursor: pointer;
+	border-radius: 2px;
+	color: #212121;
+	font-family: 'Exo', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	padding: 6px;
+	margin-top: 20px;
+	margin-left: 10px;
+}
+
+.registration input[type=button]:hover{
+	opacity: 0.9;
+}
+
+.registration input[type=button]:active{
+	opacity: 0.6;
+}
+
